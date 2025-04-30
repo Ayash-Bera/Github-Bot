@@ -2,6 +2,8 @@
 
 A Discord bot written in Rust that provides information about GTA Online, including weekly updates, server status, and searchable GTA Wiki information.
 
+Sadly this isnt hosted anywhere (yet) i just have this working on my local term but i used this to learn async and api calls using rust and i always wanted to build a discrd bot (mostly for the dev tag hehe )
+
 ## Features
 
 - **Weekly GTA Online Updates**: Get the latest bonuses, discounts, podium vehicles, and prize rides
