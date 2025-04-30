@@ -573,21 +573,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "07e28edb80900c19c28f1072f2e8aeca7fa06b23cd4169cefe1af5aa3260783f"
 
 [[package]]
-name = "gta-bot"
-version = "0.0.1"
-dependencies = [
- "chrono",
- "dotenv",
- "futures",
- "reqwest",
- "scraper",
- "serde",
- "serde_json",
- "serenity",
- "tokio",
-]
-
-[[package]]
 name = "h2"
 version = "0.3.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -888,6 +873,21 @@ checksum = "cea70ddb795996207ad57735b50c5982d8844f38ba9ee5f1aedcfb708a2aa11e"
 dependencies = [
  "equivalent",
  "hashbrown 0.15.2",
+]
+
+[[package]]
+name = "infobot"
+version = "0.0.1"
+dependencies = [
+ "chrono",
+ "dotenv",
+ "futures",
+ "reqwest",
+ "scraper",
+ "serde",
+ "serde_json",
+ "serenity",
+ "tokio",
 ]
 
 [[package]]

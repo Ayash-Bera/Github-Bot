@@ -32,7 +32,7 @@ impl EventHandler for Handler {
         
         // Set bot status
         use serenity::model::gateway::Activity;
-        ctx.set_activity(Activity::playing("GTA V")).await;
+        ctx.set_activity(Activity::playing("with ur mom")).await;
     }
 }
 
